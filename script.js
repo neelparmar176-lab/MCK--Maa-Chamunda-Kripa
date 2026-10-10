@@ -7,7 +7,7 @@
  * - 60-120 FPS Lerp (Linear Interpolation) physics
  * - Touch-optimized scrub track & play toggle
  * - Responsive Mobile Drawer navigation
- * - Dynamic WhatsApp links for 98819353450
+ * - Dynamic WhatsApp links for 9819353450
  */
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   initResponsiveNavigation();
 });
 
-const WHATSAPP_NUMBER = "98819353450";
+const WHATSAPP_NUMBER = "9819353450";
 
 /* ==========================================================================
    GLOBAL SCROLLYTELLING CANVAS ENGINE (WHOLE PAGE SCROLL)
