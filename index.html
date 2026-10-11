@@ -126,7 +126,55 @@
 
     </div>
   </header>
+<!-- Launch Announcement -->
+<div class="launch-announcement">
+  <span class="launch-dot"></span>
+  <div>
+    <strong>MCK Bhojan Launching on 14 October 2026</strong>
+    <small>Fresh • Pure Veg • Ghar Jaisa Bhojan</small>
+  </div>
+</div>
 
+<style>
+  .launch-announcement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 14px;
+    text-align: center;
+    background: #6f1825;
+    color: #fff8e8;
+    border-bottom: 2px solid #d6a84f;
+    font-family: Arial, sans-serif;
+  }
+
+  .launch-announcement strong {
+    display: block;
+    font-size: 15px;
+  }
+
+  .launch-announcement small {
+    display: block;
+    margin-top: 5px;
+    color: #f3d69b;
+    font-size: 12px;
+  }
+
+  .launch-dot {
+    width: 10px;
+    height: 10px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #f3c76a;
+    box-shadow: 0 0 10px #f3c76a;
+    animation: launchPulse 1.5s infinite;
+  }
+
+  @keyframes launchPulse {
+    50% { opacity: 0.45; }
+  }
+</style>
   <!-- ==========================================================================
        MAIN SCROLLABLE CONTENT (ANIMATES BACKGROUND CANVAS AS YOU SCROLL)
        ========================================================================== -->
